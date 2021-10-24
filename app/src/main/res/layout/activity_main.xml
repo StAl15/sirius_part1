@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_world4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="UNITED STATES"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintEnd_toStartOf="@+id/lottieAnimationView4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/title_world3"
+        app:layout_constraintTop_toBottomOf="@+id/title_world3" />
+
+    <TextView
+        android:id="@+id/title_world5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="INDONESIA"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintStart_toStartOf="@+id/title_world3"
+        app:layout_constraintTop_toBottomOf="@+id/title_world4" />
+
+    <TextView
+        android:id="@+id/title_world6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="PAKISTAN"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintStart_toStartOf="@+id/title_world3"
+        app:layout_constraintTop_toBottomOf="@+id/title_world5" />
+
+    <TextView
+        android:id="@+id/title_world3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="INDIA"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintStart_toStartOf="@+id/title_world2"
+        app:layout_constraintTop_toBottomOf="@+id/title_world2" />
+
+    <TextView
+        android:id="@+id/title_quantity3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="1,380,004,000"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView" />
+
+    <TextView
+        android:id="@+id/title_quantity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_44sdp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="1,402,112,000"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView2" />
+
+    <TextView
+        android:id="@+id/title_quantity4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="@dimen/_100sdp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="329,484,000"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/title_quantity3"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView3" />
+
+    <TextView
+        android:id="@+id/title_quantity5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_100sdp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="273,523,000"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/title_quantity4"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView4" />
+
+    <TextView
+        android:id="@+id/title_quantity6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_100sdp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="220,892,000"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/title_quantity5"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView6" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView4"
+        android:layout_width="@dimen/_67sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_17sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/title_world4"
+        app:layout_constraintEnd_toStartOf="@+id/title_quantity4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/lottieAnimationView3"
+        app:layout_constraintTop_toTopOf="@+id/title_world4"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/layer" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView6"
+        android:layout_width="@dimen/_48sdp"
+        android:layout_height="@dimen/_25sdp"
+
+        android:layout_marginEnd="@dimen/_30sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/title_world5"
+        app:layout_constraintEnd_toStartOf="@+id/title_quantity5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/lottieAnimationView4"
+        app:layout_constraintTop_toTopOf="@+id/title_quantity5"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/layer" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView7"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_25sdp"
+
+        android:layout_marginEnd="@dimen/_40sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/title_world6"
+        app:layout_constraintEnd_toStartOf="@+id/title_quantity6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/lottieAnimationView6"
+        app:layout_constraintTop_toTopOf="@+id/title_quantity6"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/layer" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_25sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/title_world2"
+        app:layout_constraintEnd_toStartOf="@+id/title_quantity2"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintStart_toEndOf="@+id/title_world2"
+        app:layout_constraintTop_toTopOf="@+id/title_quantity2"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/layer" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView3"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_45sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/title_world3"
+        app:layout_constraintEnd_toStartOf="@+id/title_quantity3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/lottieAnimationView"
+        app:layout_constraintTop_toTopOf="@+id/title_quantity3"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/layer" />
+
+    <TextView
+        android:id="@+id/header_world_population"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_75sdp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="World population"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_25ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/header_ten_countries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:fontFamily="@font/montserrat"
+        android:text="Ten most popular countries"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_world_population" />
+
+    <TextView
+        android:id="@+id/title_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_28sdp"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="WORLD"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_ten_countries" />
+
+    <TextView
+        android:id="@+id/title_world2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="CHINA"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintStart_toStartOf="@+id/title_world"
+        app:layout_constraintTop_toBottomOf="@+id/title_world" />
+
+    <TextView
+        android:id="@+id/title_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_38sdp"
+        android:layout_marginEnd="@dimen/_24sdp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="7 322 923 012"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/title_world"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_ten_countries" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView2"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/title_quantity"
+        app:layout_constraintEnd_toStartOf="@+id/title_quantity"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toEndOf="@+id/title_world"
+        app:layout_constraintTop_toTopOf="@+id/title_world"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/layer" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
